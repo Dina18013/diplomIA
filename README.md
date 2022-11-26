@@ -22,7 +22,7 @@
 
 * для mySQL: java "-Dspring.datasource.url=jdbc:mysql://localhost:3306/app" -jar artifacts/aqa-shop.jar
 
-* для postgresgl: java "-Dspring.datasource.url=jdbc:postgresql://localhost.43:5432/app" -jar artifacts/aqa-shop.jar
+* для postgresgl: java "-Dspring.datasource.url=jdbc:postgresql://localhost:5432/app" -jar artifacts/aqa-shop.jar
 
 6. Открыть второй терминал и запустить тесты:
 
