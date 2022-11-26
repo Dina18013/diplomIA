@@ -20,15 +20,15 @@
 
 5. Запустить целевое приложение:
 
-* для mySQL: java "-Dspring.datasource.url=jdbc:mysql://89.223.70.43:3306/app" -jar artifacts/aqa-shop.jar
+* для mySQL: java "-Dspring.datasource.url=jdbc:mysql://localhost:3306/app" -jar artifacts/aqa-shop.jar
 
-* для postgresgl: java "-Dspring.datasource.url=jdbc:postgresql://89.223.70.43:5432/app" -jar artifacts/aqa-shop.jar
+* для postgresgl: java "-Dspring.datasource.url=jdbc:postgresql://localhost.43:5432/app" -jar artifacts/aqa-shop.jar
 
 6. Открыть второй терминал и запустить тесты:
 
-* для mySQL: ./gradlew clean test "-Ddb.url=jdbc:mysql://89.223.70.43:3306/app"
+* для mySQL: ./gradlew clean test "-Ddb.url=jdbc:mysql://localhost:3306/app"
 
-* для postgresgl: ./gradlew clean test "-Ddb.url=jdbc:postgresql://89.223.70.43:5432/app"
+* для postgresgl: ./gradlew clean test "-Ddb.url=jdbc:postgresql://localhost:5432/app"
 
 7. Создать отчёт Allure, открыть в браузере:
 
